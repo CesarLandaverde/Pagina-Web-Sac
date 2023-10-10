@@ -1,0 +1,39 @@
+  .bg-image img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 200%;  
+    height: 400%;
+    object-fit: cover;
+  }
+
+  .card {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #008cff;
+    box-shadow: 0px 0px 10px rgba(107, 107, 107, 0.2);
+    
+    position: relative;
+    opacity: 0.5;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card:hover {
+    transform: translate(0);
+    opacity: 1;
+}
+
+.card-body {
+    padding: 1.25rem;
+  }

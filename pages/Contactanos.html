@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <script src="../js/MenuPages.js" defer></script>
+
+    <title>Contactanos</title>
+    
+</head>
+<body>
+
+   <div id="menuContenedor"></div>
+</div>
+
+  
+<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="../img/1_contact.png" class="d-block w-100 c-img" alt="Slide 1">
+      <div class="carousel-caption top-0 mt-4">
+        <p class="mt-5 fs-3 text-uppercase">Contactanos aqui</p>
+        <h1 class="display-1 fw-bolder text-capitalize">Estamos felices de ayudarte</h1>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="../img/22.png" class="d-block w-100 c-img" alt="Slide 2">
+      <div class="carousel-caption top-0 mt-4">
+        <p class="text-uppercase fs-3 mt-5">Reporta tus problemas aqui</p>
+        <p class="display-1 fw-bolder text-capitalize">Tus comentarios nos ayudan</p>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="../img/11.png" class="d-block w-100 c-img" alt="Slide 3">
+      <div class="carousel-caption top-0 mt-4">
+        <p class="text-uppercase fs-3 mt-5">¿Que esperas para escribirnos</p>
+        <p class="display-1 fw-bolder text-capitalize">Ayudanos a mejorar</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<section class="container mt-5">
+
+   
+      
+    <nav>
+      <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Contactanos</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Reporta tu problema</button>
+      </div>
+    </nav>
+    <div class="tab-content p-3 border bg-light" id="nav-tabContent">
+      <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="col-md-12">
+     
+          <h2 class="text-primary">Contactanos</p></h2> 
+          <form action="#" method="post" id="formularioContacto">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+            </div>
+            <div class="mb-3">
+              <input type="tel" class="form-control" id="numero" placeholder="Número de Teléfono" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" id="email" class="form-control" placeholder="Correo Electrónico" required>
+            </div>
+  
+  
+            <div>
+              <p class="text-primary">¿Cual es el motivo por el que nos contacta?</p>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comentarios</label>
+              </div>
+              <div></div>
+              <br>
+              <br>
+  
+            </div>
+  
+            <button type="submit" class="btn btn-warning">Enviar</button>
+  
+  
+          </form>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="col-md-12">
+     
+          <h2 class="text-primary">¿Tienes algun problema?</p></h2> 
+          <form action="#" method="post" id="formularioContacto2">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+            </div>
+            <div class="mb-3">
+              <input type="tel" class="form-control" id="numero" placeholder="Número de Teléfono" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" id="email" class="form-control" placeholder="Correo Electrónico" required>
+            </div>
+  
+  
+            <div>
+              <p class="text-primary">¿Cual es su problema?</p>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comentarios</label>
+              </div>
+              <div></div>
+              <br>
+              <br>
+  
+            </div>
+  
+            <button type="submit" class="btn btn-warning">Enviar</button>
+  
+  
+          </form>
+        </div>
+      </div>
+
+    </div>
+  
+
+        </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+
+
+
+   <div id="footerContenedor"></div>
+   <script src="../js/conctatanos.js"></script>
+
+</body>
+
+<script src="../js/cargarMenuPages.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+
+<script src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> <script defer src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script defer src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>
